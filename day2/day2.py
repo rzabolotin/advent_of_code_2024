@@ -25,6 +25,7 @@ def main():
     results = [check_report(report) for report in reports]
     print("Valid reports: ", sum(results))
 
+    # Part 2
     results = [check_report2(report) for report in reports]
     print("Valid reports 2: ", sum(results))
 
